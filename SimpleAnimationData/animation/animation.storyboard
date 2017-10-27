@@ -41,7 +41,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ueA-9L-lAu"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="動漫" id="tgK-TL-AeW"/>
+                    <tabBarItem key="tabBarItem" title="動漫" image="tab_bar_cartoon" id="tgK-TL-AeW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Ld-5Y-tEg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -487,5 +487,6 @@
         <image name="ngnl_logo" width="744" height="455"/>
         <image name="re_zero_img" width="448" height="672"/>
         <image name="re_zero_logo" width="456" height="199"/>
+        <image name="tab_bar_cartoon" width="50" height="50"/>
     </resources>
 </document>

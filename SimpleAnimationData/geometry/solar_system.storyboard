@@ -42,7 +42,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="v1A-Wf-0Ck"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="太陽系" id="Y0V-H6-Kqo"/>
+                    <tabBarItem key="tabBarItem" title="太陽系" image="tab_bar_star" id="Y0V-H6-Kqo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ypJ-B5-IsL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -331,7 +331,7 @@
                             <outlet property="delegate" destination="Fkf-5b-ByM" id="V0B-hH-29u"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="遠近" id="ENA-kL-hK5"/>
+                    <tabBarItem key="tabBarItem" title="遠近" image="tab_bar_length" id="ENA-kL-hK5"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="myE-Xb-hcl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -650,7 +650,7 @@
                             <outlet property="delegate" destination="kkS-T1-mrq" id="1HN-gb-Pk4"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="排序" id="P84-xd-sPc"/>
+                    <tabBarItem key="tabBarItem" title="排序" image="tab_bar_sorting" id="P84-xd-sPc"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mgp-kX-4OX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1207,7 +1207,7 @@
                             <outlet property="delegate" destination="Adt-3g-5os" id="WkB-8k-YSd"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="類別" id="thB-6y-13s"/>
+                    <tabBarItem key="tabBarItem" title="類別" image="tab_bar_category" id="thB-6y-13s"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="88f-Qx-Bln" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1496,7 +1496,7 @@
                             <outlet property="delegate" destination="7tK-Je-8oF" id="SV3-2y-27E"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="大小" id="Wf4-hh-FdJ"/>
+                    <tabBarItem key="tabBarItem" title="大小" image="tab_bar_size" id="Wf4-hh-FdJ"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WN9-Fc-Rny" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1785,7 +1785,7 @@
                             <outlet property="delegate" destination="Kj4-An-jB3" id="Yj7-Zk-Dt0"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="質量" id="nNl-ta-Aa3"/>
+                    <tabBarItem key="tabBarItem" title="質量" image="tab_bar_weight" id="nNl-ta-Aa3"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zhj-Qj-9gk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -6193,6 +6193,12 @@
         <image name="Sun_star" width="1024" height="977"/>
         <image name="Uranus" width="1024" height="1024"/>
         <image name="solar_system_l_ico" width="630" height="480"/>
+        <image name="tab_bar_category" width="30" height="30"/>
+        <image name="tab_bar_length" width="30" height="30"/>
+        <image name="tab_bar_size" width="30" height="30"/>
+        <image name="tab_bar_sorting" width="30" height="30"/>
+        <image name="tab_bar_star" width="30" height="30"/>
+        <image name="tab_bar_weight" width="30" height="30"/>
         <image name="venus" width="558" height="600"/>
     </resources>
     <inferredMetricsTieBreakers>

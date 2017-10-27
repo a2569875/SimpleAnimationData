@@ -75,10 +75,10 @@ CAST
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Grm-wi-TrE">
-                                <rect key="frame" x="194" y="699" width="125" height="35"/>
+                                <rect key="frame" x="194" y="699" width="83" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://zh.wikipedia.org/wiki/來自深淵" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wkK-ez-CLM">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://zh.wikipedia.org/wiki/來自深淵_(漫畫)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wkK-ez-CLM">
                                         <rect key="frame" x="-2" y="-31" width="247" height="59"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -120,11 +120,11 @@ CAST
                         <sections>
                             <tableViewSection headerTitle="來自深淵" id="cyx-vO-eUq">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="131" id="9pT-Vu-s7v">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="131" id="9pT-Vu-s7v">
                                         <rect key="frame" x="0.0" y="138" width="375" height="131"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9pT-Vu-s7v" id="DVx-SM-02C">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="130.66666666666666"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="130.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rico_icon" translatesAutoresizingMaskIntoConstraints="NO" id="we1-5D-vAj">
@@ -151,11 +151,11 @@ CAST
                                             <segue destination="5kc-BZ-UuE" kind="show" id="IVf-FS-O60"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="131" id="cJR-Rk-qhr">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="131" id="cJR-Rk-qhr">
                                         <rect key="frame" x="0.0" y="269" width="375" height="131"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cJR-Rk-qhr" id="4Xk-6o-cSO">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="130.66666666666666"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="130.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="regu_icon" translatesAutoresizingMaskIntoConstraints="NO" id="vYI-aI-Iwe">
@@ -213,11 +213,11 @@ CAST
                                             <segue destination="kQj-0P-Wmt" kind="show" id="tcq-ke-bMo"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="131" id="nHu-sx-31W">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="131" id="nHu-sx-31W">
                                         <rect key="frame" x="0.0" y="531" width="375" height="131"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nHu-sx-31W" id="DMz-aa-TUJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="130.66666666666666"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="130.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Jiruo_icon" translatesAutoresizingMaskIntoConstraints="NO" id="x7b-jn-Zig">
@@ -244,11 +244,11 @@ CAST
                                             <segue destination="jW5-39-hJ1" kind="show" id="QW2-x3-kj1"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="131" id="XPt-sL-vP6">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="131" id="XPt-sL-vP6">
                                         <rect key="frame" x="0.0" y="662" width="375" height="131"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XPt-sL-vP6" id="zar-RN-Qf1">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="130.66666666666666"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="130.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="maruruku_icon" translatesAutoresizingMaskIntoConstraints="NO" id="fnu-ox-ku3">

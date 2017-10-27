@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FbR-RF-Beh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FbR-RF-Beh">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13526"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -98,7 +97,7 @@
                             <outlet property="delegate" destination="Lgq-ah-wa1" id="ge0-Nm-w89"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="索引" id="amP-wO-ex9"/>
+                    <tabBarItem key="tabBarItem" title="索引" image="tab_bar_category" id="amP-wO-ex9"/>
                     <navigationItem key="navigationItem" id="5eh-rs-ovJ"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PUe-m3-1pm" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -491,7 +490,7 @@
                         <color key="backgroundColor" red="0.51422630180738216" green="0.94826145262212291" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="gNL-Ng-GeI"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="起始頁" id="m8t-6E-sw8"/>
+                    <tabBarItem key="tabBarItem" title="起始頁" image="tab_bar_start" id="m8t-6E-sw8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ing-eE-788" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -501,7 +500,7 @@
         <scene sceneID="Ab7-Dj-hDo">
             <objects>
                 <viewControllerPlaceholder storyboardName="animation" id="SHh-Rx-Hxo" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="動漫" id="anR-Vp-E9f"/>
+                    <tabBarItem key="tabBarItem" title="動漫" image="tab_bar_cartoon" id="anR-Vp-E9f"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HGh-mm-2wF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -511,7 +510,7 @@
         <scene sceneID="YRn-6r-ceQ">
             <objects>
                 <viewControllerPlaceholder storyboardName="solar_system" id="FQc-fh-pFw" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="太陽系" id="WrQ-AM-WV4"/>
+                    <tabBarItem key="tabBarItem" title="太陽系" image="tab_bar_star" id="WrQ-AM-WV4"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kbW-TS-jJt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -521,7 +520,7 @@
         <scene sceneID="mRM-qy-kQU">
             <objects>
                 <viewControllerPlaceholder storyboardName="geometry" id="PKn-EV-dH9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="幾何學" id="Fzz-ET-Ebh"/>
+                    <tabBarItem key="tabBarItem" title="幾何學" image="tab_bar_geo" id="Fzz-ET-Ebh"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b8R-BM-z8N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -538,10 +537,15 @@
         <image name="sci_icon" width="256" height="256"/>
         <image name="shapes_icon" width="697" height="503"/>
         <image name="stars_icon" width="200" height="209"/>
+        <image name="tab_bar_cartoon" width="50" height="50"/>
+        <image name="tab_bar_category" width="30" height="30"/>
+        <image name="tab_bar_geo" width="29" height="30"/>
+        <image name="tab_bar_star" width="30" height="30"/>
+        <image name="tab_bar_start" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="0Ad-ro-TPM"/>
-        <segue reference="u03-Zq-FaM"/>
-        <segue reference="NMm-9F-54I"/>
+        <segue reference="rqa-Jh-QaE"/>
+        <segue reference="p5J-Eu-sQW"/>
+        <segue reference="QeR-34-rO6"/>
     </inferredMetricsTieBreakers>
 </document>
