@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A25657F1FA0B77100B778E6 /* kobayashi.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A25657E1FA0B77100B778E6 /* kobayashi.storyboard */; };
+		6A604B0C1FA07D3B00F8F083 /* solar_system.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A604B0B1FA07D3B00F8F083 /* solar_system.storyboard */; };
+		6A79DC7D1FA0BBB4008F1411 /* animation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A79DC7C1FA0BBB4008F1411 /* animation.storyboard */; };
+		6A79DC7F1FA0BBC9008F1411 /* geometry.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A79DC7E1FA0BBC9008F1411 /* geometry.storyboard */; };
+		6A79DC811FA0C120008F1411 /* made_in_abyss.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A79DC801FA0C120008F1411 /* made_in_abyss.storyboard */; };
+		6A79DC831FA0C639008F1411 /* no_game_no_life.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A79DC821FA0C639008F1411 /* no_game_no_life.storyboard */; };
+		6A79DC851FA0C8C6008F1411 /* re_zero.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A79DC841FA0C8C6008F1411 /* re_zero.storyboard */; };
 		6A9366C41F9B36D300B61457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9366C31F9B36D300B61457 /* AppDelegate.swift */; };
 		6A9366C61F9B36D300B61457 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9366C51F9B36D300B61457 /* ViewController.swift */; };
 		6A9366C91F9B36D300B61457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9366C71F9B36D300B61457 /* Main.storyboard */; };
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A25657E1FA0B77100B778E6 /* kobayashi.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = kobayashi.storyboard; sourceTree = "<group>"; };
+		6A604B0B1FA07D3B00F8F083 /* solar_system.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = solar_system.storyboard; sourceTree = "<group>"; };
+		6A79DC7C1FA0BBB4008F1411 /* animation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = animation.storyboard; sourceTree = "<group>"; };
+		6A79DC7E1FA0BBC9008F1411 /* geometry.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = geometry.storyboard; sourceTree = "<group>"; };
+		6A79DC801FA0C120008F1411 /* made_in_abyss.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = made_in_abyss.storyboard; sourceTree = "<group>"; };
+		6A79DC821FA0C639008F1411 /* no_game_no_life.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = no_game_no_life.storyboard; sourceTree = "<group>"; };
+		6A79DC841FA0C8C6008F1411 /* re_zero.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = re_zero.storyboard; sourceTree = "<group>"; };
 		6A9366C01F9B36D300B61457 /* SimpleAnimationData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAnimationData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9366C31F9B36D300B61457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A9366C51F9B36D300B61457 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +88,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A2565801FA0B8E900B778E6 /* geometry */ = {
+			isa = PBXGroup;
+			children = (
+				6A79DC7E1FA0BBC9008F1411 /* geometry.storyboard */,
+				6A604B0B1FA07D3B00F8F083 /* solar_system.storyboard */,
+			);
+			path = geometry;
+			sourceTree = "<group>";
+		};
+		6A604B101FA08CCD00F8F083 /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				6A79DC7C1FA0BBB4008F1411 /* animation.storyboard */,
+				6A79DC841FA0C8C6008F1411 /* re_zero.storyboard */,
+				6A79DC821FA0C639008F1411 /* no_game_no_life.storyboard */,
+				6A79DC801FA0C120008F1411 /* made_in_abyss.storyboard */,
+				6A25657E1FA0B77100B778E6 /* kobayashi.storyboard */,
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
 		6A9366B71F9B36D300B61457 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +132,8 @@
 		6A9366C21F9B36D300B61457 /* SimpleAnimationData */ = {
 			isa = PBXGroup;
 			children = (
+				6A2565801FA0B8E900B778E6 /* geometry */,
+				6A604B101FA08CCD00F8F083 /* animation */,
 				6A9366C31F9B36D300B61457 /* AppDelegate.swift */,
 				6A9366C51F9B36D300B61457 /* ViewController.swift */,
 				6A9366C71F9B36D300B61457 /* Main.storyboard */,
@@ -232,8 +269,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A79DC831FA0C639008F1411 /* no_game_no_life.storyboard in Resources */,
+				6A604B0C1FA07D3B00F8F083 /* solar_system.storyboard in Resources */,
 				6A9366CE1F9B36D300B61457 /* LaunchScreen.storyboard in Resources */,
+				6A79DC7D1FA0BBB4008F1411 /* animation.storyboard in Resources */,
+				6A79DC7F1FA0BBC9008F1411 /* geometry.storyboard in Resources */,
+				6A79DC851FA0C8C6008F1411 /* re_zero.storyboard in Resources */,
 				6A9366CB1F9B36D300B61457 /* Assets.xcassets in Resources */,
+				6A79DC811FA0C120008F1411 /* made_in_abyss.storyboard in Resources */,
+				6A25657F1FA0B77100B778E6 /* kobayashi.storyboard in Resources */,
 				6A9366C91F9B36D300B61457 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SimpleAnimationData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ntou.cs.a2569875.SimpleAnimationData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,6 +487,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SimpleAnimationData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ntou.cs.a2569875.SimpleAnimationData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
